@@ -92,19 +92,19 @@ namespace ChessFun7_5k_
             {
                 List<int[]> coor = new List<int[]>();
 
-                for (int r = 0;; r++)
+                for (int r = 0;r <= 5; r++)
                     if ((0 <= x - r) && (0 <= y - r)) coor.Add(new int[2] { x - r, y - r });
                     else break;
 
-                for (int r = 0;; r++)
+                for (int r = 0; r <= 5; r++)
                     if ((0 <= x - r) && (y + r < rows)) coor.Add(new int[2] { x - r, y + r });
                     else break;
 
-                for (int r = 0;; r++)
+                for (int r = 0; r <= 5; r++)
                     if ((x + r < cols) && (y + r < rows)) coor.Add(new int[2] { x + r, y + r });
                     else break;
 
-                for (int r = 0; ; r++)
+                for (int r = 0; r <= 5; r++)
                     if ((x + r < cols) && (0 <= y - r)) coor.Add(new int[2] { x + r, y - r });
                     else break;
 
@@ -115,19 +115,19 @@ namespace ChessFun7_5k_
             {
                 List<int[]> coor = new List<int[]>();
 
-                for (int r = 0;; r++)
+                for (int r = 0; r <= 5; r++)
                     if (0 <= x - r) coor.Add(new int[2] { x - r, y });
                     else break;
 
-                for (int r = 0; ; r++)
+                for (int r = 0; r <= 5; r++)
                     if (x + r < cols) coor.Add(new int[2] { x + r, y });
                     else break;
 
-                for (int r = 0; ; r++)
+                for (int r = 0; r <= 5; r++)
                     if (y + r < rows) coor.Add(new int[2] { x, y + r });
                     else break;
 
-                for (int r = 0; ; r++)
+                for (int r = 0; r <= 5; r++)
                     if (0 <= y - r) coor.Add(new int[2] { x, y - r });
                     else break;
 

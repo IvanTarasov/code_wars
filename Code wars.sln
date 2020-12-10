@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessFun7(5k)", "ChessFun7(5k)\ChessFun7(5k).csproj", "{00FC534B-55E6-4263-B5D0-5DE829D32495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessFun7(5k)", "ChessFun7(5k)\ChessFun7(5k).csproj", "{00FC534B-55E6-4263-B5D0-5DE829D32495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessFun1(6k)", "ChessFun1(6k)\ChessFun1(6k).csproj", "{850B0234-E1A7-4A9E-BA0B-786513BEBF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BECOME IMMORTAL(1kyu)", "BECOME IMMORTAL(1kyu)\BECOME IMMORTAL(1kyu).csproj", "{D2AC8B07-881C-41CF-9218-DB82658FB2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{00FC534B-55E6-4263-B5D0-5DE829D32495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00FC534B-55E6-4263-B5D0-5DE829D32495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00FC534B-55E6-4263-B5D0-5DE829D32495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850B0234-E1A7-4A9E-BA0B-786513BEBF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850B0234-E1A7-4A9E-BA0B-786513BEBF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850B0234-E1A7-4A9E-BA0B-786513BEBF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850B0234-E1A7-4A9E-BA0B-786513BEBF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AC8B07-881C-41CF-9218-DB82658FB2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AC8B07-881C-41CF-9218-DB82658FB2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AC8B07-881C-41CF-9218-DB82658FB2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AC8B07-881C-41CF-9218-DB82658FB2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
